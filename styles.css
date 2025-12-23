@@ -1,0 +1,15 @@
+.clue-riddle {
+    display: flex;
+    justify-content: center;
+    font-family: "F1809 Homer W01 Regular";
+    font-size: 3rem;
+}
+
+.clue-image {
+    display: flex;
+    justify-content: center;
+}
+
+body {
+    background-image: url("images/background.jpg")
+}
