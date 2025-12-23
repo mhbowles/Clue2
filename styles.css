@@ -1,15 +1,30 @@
 .clue-riddle {
+    margin-top: 20px;
+    font-family: "F1809 Homer W01 Regular";
+    font-size: 30px;
+    white-space: pre-line;
     display: flex;
     justify-content: center;
-    font-family: "F1809 Homer W01 Regular";
-    font-size: 3rem;
+    align-items: center;
+    flex-direction: column;
 }
 
 .clue-image {
+    margin-top: 100px;
     display: flex;
     justify-content: center;
 }
 
 body {
     background-image: url("images/background.jpg")
+}
+
+p {
+    white-space: pre-line;
+    margin: 10px;
+}
+
+img {
+    width: 18rem;
+    height: auto;
 }
